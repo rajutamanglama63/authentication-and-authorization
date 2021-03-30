@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kiwi Maru", serif;
+}
+.container {
+  margin: 0 auto;
+  width: 85%;
+}
+
+/* Navbar styles */
+
+.navbar {
+  background-color: blueviolet;
+}
+.nav_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_content a {
+  text-decoration: none;
+  color: maroon;
+  outline: none;
+}
+.nav_content ul {
+  /* border: 1px solid green; */
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_content ul li {
+  list-style: none;
+}
+.nav_content ul li a {
+  text-decoration: none;
+  color: azure;
+  outline: none;
+}
+.nav_content ul li a:hover {
+  opacity: 0.6;
+}
+
+/* Register page styles */
+
+.register_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.page_title h1 {
+  text-align: center;
+  padding: 1rem;
+}
+.input_field {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.register_btn {
+  width: 100%;
+  background-color: blueviolet;
+  color: azure;
+  border: transparent;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.register_btn:hover {
+  opacity: 0.6;
+}
+
+/* Message component style */
+
+.messages {
+  margin-top: 0.5rem;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(194, 247, 142);
+  color: maroon;
+  border: transparent;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+/* Login page styles */
+
+.login_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.login_btn {
+  width: 100%;
+  background-color: blueviolet;
+  color: azure;
+  border: transparent;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.login_btn:hover {
+  opacity: 0.6;
+}
+
+/* todo page style */
+.todos {
+  margin: 1rem 0;
+}
